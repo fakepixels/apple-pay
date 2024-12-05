@@ -1,4 +1,19 @@
 .env
 .env.local
 
+# Dependencies
 node_modules
+.vercel
+
+# Webpack specific
+dist/
+build/
+.webpack/
+*.hot-update.js
+*.hot-update.json
+.cache/
+.cache-loader/
+
+# Build outputs
+.next/
+out/

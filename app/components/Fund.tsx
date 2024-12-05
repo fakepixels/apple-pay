@@ -16,7 +16,7 @@ export default function Fund() {
       projectId,
       addresses: { [address.toString()]: ['base'] },
       assets: ['ETH'],
-      presetFiatAmount: 20,
+      presetFiatAmount: 5,
       fiatCurrency: 'USD'
     }) : '';
 
